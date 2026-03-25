@@ -1,0 +1,36 @@
+// MedLeaves dataset — 30 medicinal herb classes (indices 0-29)
+// Each entry has: id, name, emoji, description, uses
+const HERB_DATA = {
+  "0":  { name: "Aloe Vera",        emoji: "🌵", description: "A succulent plant with thick, fleshy leaves filled with gel used in skin and health care.", uses: "Burns, skin moisturizer, digestive aid." },
+  "1":  { name: "Amruthaballi",     emoji: "🌿", description: "A climbing shrub known for its immune-boosting and anti-inflammatory properties.", uses: "Immunity, fever, jaundice." },
+  "2":  { name: "Arali",            emoji: "🌸", description: "Nerium oleander — an ornamental shrub with powerful medicinal yet toxic properties.", uses: "Heart disease (medicinal research), insecticide." },
+  "3":  { name: "Asthma Plant",     emoji: "🌱", description: "Euphorbia hirta — a small herb used traditionally to treat asthma and respiratory issues.", uses: "Asthma, cough, bronchitis." },
+  "4":  { name: "Avocado",          emoji: "🥑", description: "A nutrient-rich fruit tree whose leaves have medicinal antioxidant properties.", uses: "Cholesterol, blood pressure, skin health." },
+  "5":  { name: "Badipala",         emoji: "🌿", description: "A traditional medicinal plant used in Ayurveda for various therapeutic purposes.", uses: "Digestive issues, fever relief." },
+  "6":  { name: "Balloon Vine",     emoji: "🍃", description: "Cardiospermum halicacabum — a climbing herb with cooling and anti-inflammatory effects.", uses: "Arthritis, rheumatism, skin disorders." },
+  "7":  { name: "Bamboo",           emoji: "🎍", description: "Fast-growing grass whose shoots and leaves have nutritional and healing properties.", uses: "Respiratory conditions, calcium source, detox." },
+  "8":  { name: "Beans",            emoji: "🫘", description: "Leguminous plants with protein-rich pods and leaves used for nutrition and medicine.", uses: "Diabetes management, protein source." },
+  "9":  { name: "Betel",            emoji: "🌿", description: "Piper betle — aromatic leaves used in many Asian cultures for their antiseptic properties.", uses: "Oral hygiene, wound healing, digestion." },
+  "10": { name: "Brahmi",           emoji: "🌱", description: "Bacopa monnieri — a renowned Ayurvedic herb for improving memory and brain function.", uses: "Memory, anxiety, cognitive performance." },
+  "11": { name: "Bringaraja",       emoji: "🌼", description: "Eclipta alba — known as the 'king of hair' in Ayurveda with liver-protective properties.", uses: "Hair growth, liver health, skin care." },
+  "12": { name: "Caricature Plant", emoji: "🌿", description: "Graptophyllum pictum — ornamental plant with anti-inflammatory and analgesic properties.", uses: "Hemorrhoids, wounds, anti-inflammatory." },
+  "13": { name: "Castor",           emoji: "🌱", description: "Ricinus communis — a plant producing castor oil widely used for laxative and skin benefits.", uses: "Constipation, skin moisturizer, hair growth." },
+  "14": { name: "Catharanthus",     emoji: "🌺", description: "Periwinkle plant containing alkaloids vinblastine and vincristine used in cancer treatment.", uses: "Cancer treatment, diabetes, high blood pressure." },
+  "15": { name: "Chakte",           emoji: "🌿", description: "A medicinal tree with wood and leaves used in traditional Ayurvedic preparations.", uses: "Fever, inflammation, digestive disorders." },
+  "16": { name: "Chilly",           emoji: "🌶️", description: "Capsicum — spice plant rich in capsaicin with powerful metabolic and pain-relief properties.", uses: "Pain relief, metabolism boost, antioxidant." },
+  "17": { name: "Citrus Lime",      emoji: "🍋", description: "Citrus aurantifolia — a sour fruit tree whose leaves and fruit are rich in Vitamin C.", uses: "Immune boost, digestion, skin care." },
+  "18": { name: "Coffee",           emoji: "☕", description: "Coffea arabica — a tropical plant whose seeds are processed to make the world's most popular drink.", uses: "Alertness, antioxidants, liver health." },
+  "19": { name: "Common Rue",       emoji: "🌿", description: "Ruta graveolens — a pungent herb used since ancient times for its antispasmodic properties.", uses: "Muscle spasms, menstrual pain, insect repellant." },
+  "20": { name: "Coriander",        emoji: "🌿", description: "Coriandrum sativum — a versatile culinary herb with digestive and anti-diabetic benefits.", uses: "Digestion, blood sugar control, antioxidant." },
+  "21": { name: "Curry Leaf",       emoji: "🍃", description: "Murraya koenigii — a fragrant leaf used extensively in South Indian cuisine and Ayurveda.", uses: "Diabetes, hair health, digestion." },
+  "22": { name: "Doddapatre",       emoji: "🌿", description: "Coleus aromaticus — Indian borage, an aromatic plant used to treat coughs and colds.", uses: "Cold, cough, respiratory infections." },
+  "23": { name: "Drumstick",        emoji: "🌳", description: "Moringa oleifera — one of the most nutrient-dense plants on Earth.", uses: "Malnutrition, inflammation, blood sugar control." },
+  "24": { name: "Ekka",             emoji: "🌸", description: "Calotropis gigantea — crown flower plant used in traditional medicine for its latex.", uses: "Skin diseases, pain relief, asthma." },
+  "25": { name: "Eucalyptus",       emoji: "🌿", description: "Aromatic tree native to Australia known for its essential oil with strong antimicrobial effects.", uses: "Cold, cough, antiseptic, aromatherapy." },
+  "26": { name: "Ganigale",         emoji: "🌿", description: "A traditional medicinal plant used in South Indian folk medicine for several ailments.", uses: "Digestive ailments, skin conditions." },
+  "27": { name: "Ganike",           emoji: "🌿", description: "Solanum nigrum — black nightshade with liver-protective and anti-inflammatory properties.", uses: "Liver disorders, fever, skin diseases." },
+  "28": { name: "Gasagase",         emoji: "🌱", description: "Papaver somniferum (poppy seeds) — used in traditional medicine for calming and digestive aid.", uses: "Insomnia, digestive issues, pain." },
+  "29": { name: "Ginger",           emoji: "🫚", description: "Zingiber officinale — one of the world's most widely used medicinal spices with powerful anti-nausea effects.", uses: "Nausea, digestion, anti-inflammatory, immunity." },
+};
+
+export default HERB_DATA;

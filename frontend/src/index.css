@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 min-h-screen text-white font-sans antialiased overflow-x-hidden;
+    background: linear-gradient(135deg, #050B14 0%, #0A192F 100%);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-glass backdrop-blur-md border border-glassBorder shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] rounded-2xl;
+  }
+
+  /* Background blur orbs */
+  .bg-orb {
+    @apply absolute rounded-full blur-3xl opacity-20 pointer-events-none;
+    animation: floatOrb 18s ease-in-out infinite alternate;
+  }
+  .bg-orb-2 { animation-duration: 24s; animation-delay: -8s; }
+  .bg-orb-3 { animation-duration: 20s; animation-delay: -14s; }
+}
+
+@keyframes floatOrb {
+  0%   { transform: translate(0, 0) scale(1); }
+  33%  { transform: translate(6%, 4%) scale(1.08); }
+  66%  { transform: translate(-4%, 8%) scale(0.95); }
+  100% { transform: translate(3%, -5%) scale(1.05); }
+}
